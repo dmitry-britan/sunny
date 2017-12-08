@@ -165,11 +165,16 @@ $(function() {
 
 		$('.js-partners-slider').bxSlider({
 			pager: false,
-			controls: false,
+			controls: true,
+			nextSelector: '.partner__next',
+			prevSelector: '.partner__prev',
+			nextText: '',
+			prevText: '',
 			slideWidth: 225,
 			slideMargin: 65,
 			maxSlides: 3,
 			minSlides: 1,
+			moveSlides: 1,
 			mouseDrag: true
 		});
 	})();
